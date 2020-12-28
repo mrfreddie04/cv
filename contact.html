@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conctact Me</title>
+  </head>
+  <body>
+    <h3><strong>Address:</strong></h3>
+    <p>123 Main Street, Some City, CC 01235, USA</p>
+    <h3><strong>Phone:</strong></h3>
+    <p>Home: 123-555-1234</p>
+    <p>Cell: 555-666-7777</p>
+
+    <form id="myForm" method="post" enctype="text/plain" action="mailto:mrfreddie04@yahoo.com">
+      <div>
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" value="">  
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" value="">  
+      </div>    
+      <div>
+        <label for="resume">Upload your resume</label>
+        <input id="resume" name="resume" type="file" value="">  
+      </div>
+      <div>
+        <label>Your Message:</label>
+        <textarea rows="10" cols="40" id="message" name="message"></textarea>
+      </div>
+      <div>
+        <label for="dob">DOB</label>
+        <input id="dob" name="dob" type="date" value="">  
+      </div>
+      <div>
+        <div>
+          <input type="radio" id="contactEmail" name="contact" value="cemail">
+          <label for="contactEmail">Email</label>
+      
+          <input type="radio" id="contactPhone" name="contact" value="cphone">
+          <label for="contactPhone">Phone</label>
+      
+          <input type="radio" id="contactMail" name="contact" value="cmail">
+          <label for="contactMail">Snail Mail</label>
+        </div>
+      </div>
+      <div>
+        <label for="citizen">US Citizen?</label>
+        <input id="citizen" name="citizen" type="checkbox" value="">  
+      </div>
+      <div>
+        <label for="payrange">Pay Range</label>
+        <input id="payrange" name="payrange" type="range" value="">  
+      </div>    
+      <button type="submit">Save</button>
+    </form>
+
+    <script>
+      // var f =  document.getElementById("myForm");
+      // f.addEventListener("submit", function(event){
+      //   event.preventDefault();
+      //   console.log(event.srcElement);
+      //   console.log(event.target);
+      // });
+
+      // function myFunction() {
+      //   var elForm = document.getElementById("myForm");
+      //   //console.log(elForm);
+      //   var inputs = elForm.elements;
+      //   inputs.array.forEach(element => {
+      //     console.log(element.name, element.value);
+      //   });
+      //   alert("The form was submitted");
+      // }
+      </script>    
+  </body> 
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form type="post" action="index.html">
+    <div>
+      <label for="name">Your Name</label>
+      <input id="name" name="name" type="text" value="">  
+    </div>
+    <div>
+      <label for="resume">Upload your resume</label>
+      <input id="resume" name="resume" type="file" value="">  
+    </div>
+    <div>
+      <label for="dob">DOB</label>
+      <input id="dob" name="dob" type="date" value="">  
+    </div>
+    <div>
+      <div>
+        <input type="radio" id="contactEmail" name="contact" value="email">
+        <label for="contactEmail">Email</label>
+    
+        <input type="radio" id="contactPhone" name="contact" value="phone">
+        <label for="contactPhone">Phone</label>
+    
+        <input type="radio" id="contactMail" name="contact" value="mail">
+        <label for="contactMail">Snail Mail</label>
+      </div>
+    </div>
+    <div>
+      <label for="citizen">US Citizen?</label>
+      <input id="citizen" name="citizen" type="checkbox" value="">  
+    </div>
+    <div>
+      <label for="payrange">Pay Range</label>
+      <input id="payrange" name="payrange" type="range" value="">  
+    </div>    
+    <button type="submit">Save</button>
+  </form>
+</body>
+</html>
